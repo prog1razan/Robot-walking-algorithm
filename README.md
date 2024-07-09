@@ -1,4 +1,4 @@
-# TASK2 : Robot-walking-algorithm
+# TASK1 : Robot-walking-algorithm
 
 ## Table of Contents⚙️
 - [Project Description](#project-description)
