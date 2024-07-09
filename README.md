@@ -29,10 +29,10 @@ time = Get("time")
 
 // Walking cycle function
 Function Walking()
-    MoveLeg("left", step_length, step_height, time )
-    MoveLeg("right", -step_length, 0, time )
-    MoveLeg("right", step_length, step_height, time )
-    MoveLeg("left", -step_length, 0, time )
+    MoveLeg("left", step_length, step_height, time ) // left leg moves forward
+    MoveLeg("right", -step_length, 0, time ) // right leg moves backward and zero because leg is being moved backward without lifting it
+    MoveLeg("right", step_length, step_height, time ) // right leg moves forward
+    MoveLeg("left", -step_length, 0, time ) // left leg moves backward
 End Function
 
 // Function to move a leg
