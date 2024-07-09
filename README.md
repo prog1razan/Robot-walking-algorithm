@@ -15,7 +15,7 @@
 ## Algorithm Explanation
 
 This algorithm assumes a simple robot with two legs, leg moves forward or backward during each step, each having three degrees of freedom: hip, knee, and ankle.
-
+```
  // Initialize servo motors
 InitializeServos()
 
@@ -46,6 +46,7 @@ End Function
 Function Get(parameter)
     Return ReadInput(parameter)
 End Function
+```
 
 ## File Structure 🏗️
 
