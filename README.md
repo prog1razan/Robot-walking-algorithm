@@ -14,7 +14,7 @@
 
 ## Algorithm Explanation
 
-This algorithm assumes a simple robot with two legs, leg moves forward or backward during each step, each having three degrees of freedom: hip, knee, and ankle.
+This algorithm assumes a simple robot with servo motors and two legs, leg moves forward or backward during each step, each having three degrees of freedom: hip, knee, and ankle.
 ```
  // Initialize servo motors
 InitializeServos()
@@ -60,8 +60,3 @@ Robot-walking-algorithm/
 
 made with love by "she codes team "🤍😄
 raghad Alshammari - sadeem alresaini - razan alothaim.
-
-
-
-
-[def]: algorithm-explanation
